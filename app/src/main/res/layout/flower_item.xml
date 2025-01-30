@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/flower_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Çiçek Adı"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/flower_type_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Çiçek Türü"
+        android:textSize="14sp"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/flower_watering_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sulama Bilgisi"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sil"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:textColor="@android:color/white" />
+</LinearLayout>

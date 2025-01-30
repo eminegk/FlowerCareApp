@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Çiçek Adı Girişi -->
+    <EditText
+        android:id="@+id/flower_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Çiçeğinizin adını girin"
+        android:inputType="text" />
+
+    <!-- Çiçek Türü Seçimi -->
+    <Spinner
+        android:id="@+id/flower_type_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+    <!-- Sulama Bilgisi -->
+    <TextView
+        android:id="@+id/watering_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sulama bilgisi burada görünecek"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Kaydet Butonu -->
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kaydet"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

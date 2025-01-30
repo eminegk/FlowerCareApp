@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Uygulama Adı -->
+    <string name="app_name">Flower Care</string>
+
+    <!-- Ana Ekran -->
+    <string name="add_flower_button">Yeni Çiçek Ekle</string>
+    <string name="delete_flower_button">Sil</string>
+    <string name="flower_list_title">Çiçek Listesi</string>
+
+    <!-- Çiçek Ekleme Ekranı -->
+    <string name="flower_name_hint">Çiçeğinizin adını girin</string>
+    <string name="flower_type_hint">Çiçek türünü seçin</string>
+    <string name="save_flower_button">Kaydet</string>
+
+    <!-- Çiçek Bilgisi -->
+    <string name="flower_name">Çiçek Adı</string>
+    <string name="flower_type">Çiçek Türü</string>
+    <string name="flower_watering_info">Sulama Bilgisi</string>
+
+    <!-- Bildirim Mesajları -->
+    <string name="flower_added">Çiçek başarıyla eklendi!</string>
+    <string name="flower_deleted">Çiçek başarıyla silindi!</string>
+    <string name="error_message">Bir hata oluştu, lütfen tekrar deneyin.</string>
+</resources>
